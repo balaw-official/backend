@@ -22,7 +22,7 @@ jobs:
         include:
           - os: ubuntu-latest
             gradle_cmd: "./gradlew"
-            report_path: "backend/build/reports/tests"
+            report_path: "build/reports/tests"
 
     runs-on: ${{ matrix.os }}
     env:
